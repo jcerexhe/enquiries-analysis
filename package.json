@@ -1,0 +1,10 @@
+{
+  "name": "enquiries-analysis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jamie Cerexhe",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/language": "^0.10.5"
+  }
+}
