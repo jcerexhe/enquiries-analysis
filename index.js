@@ -9,7 +9,7 @@ const language = Language({
   projectId: projectId
 });
 
-const textDoc = require('./textDoc');
+const textDoc = require('./sampleText');
 // const textDoc = require('./sampleText');
 
 // The text to analyze
@@ -41,7 +41,7 @@ document.detectEntities()
       } else {
         let newEntity = new Object();
         newEntity.name = entity.name;
-        newEntity.count = 0;
+        newEntity.count = 1;
         items.push(newEntity);
       }
       
